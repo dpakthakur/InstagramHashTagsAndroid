@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:supportsRtl="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/unitads">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="STEP 1:"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorSecondary"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Firstly you need to choose the categorie of the tags that you need to use in your instagrame post or in other social media"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/step1"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="7dp"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="STEP 2:"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorSecondary"
+                android:paddingTop="7dp"
+                android:paddingBottom="7dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="1- Then you can choose the sub categorie that you need to use"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="2- After that copy the hashtags by click on COPY button or click on COPY &#38; OPEN INSTAGRAM"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="3- Finaly past those hashtags on your post and wait to get the organic likes and followers"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/step2"
+                android:layout_marginBottom="7dp"
+                android:layout_marginTop="7dp"
+                android:adjustViewBounds="true"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/unitads"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+    </LinearLayout>
+</RelativeLayout>
